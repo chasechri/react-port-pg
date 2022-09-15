@@ -97,10 +97,16 @@ header nav ul li a {
   padding: 1rem;
 }
 
+.bi-twitter:hover,
+.bi-linkedin:hover,
+.bi-github:hover {
+  color: red;
+}
+
 footer {
   display: flex;
   justify-content: center;
-  /* position: fixed; */
+  position: fixed;
   padding: 1rem;
   left: 0;
   bottom: 0;
@@ -139,9 +145,104 @@ footer {
   margin-bottom: 2.5rem;
 }
 
-img {
+.work article img {
   width: 20rem;
   height: 20rem;
   border-radius: 5px;
 }
 
+/* portfolio section ends */
+
+/* Resume section begins */
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resume h3 {
+  font-size: 2rem;
+  padding-bottom: .8rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid;
+}
+
+.resume div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resume div h4 {
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+.resume div li {
+  list-style: none;
+  line-height: 1.25rem;
+}
+
+/* resume section ends */
+
+/* contact form section begins */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.contact h1 { 
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.name,
+.email,
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.name label,
+.email label,
+.message label {
+ padding-top: .25rem;
+ padding-bottom: .25rem;
+}
+
+.name textarea,
+.email textarea,
+.message textarea {
+  border-radius: 5px;
+}
+
+.error-text {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+/* .contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.contact-btn button {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.contact-btn button:hover {
+  background-color: lightgray;
+}
