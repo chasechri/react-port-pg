@@ -1,9 +1,15 @@
 import React from "react";
+import Pdf from "../../assets/Documents/Chase-Christenson.pdf";
 
 function Resume() {
   return (
     <section id="resume" className="resume">
       <h3>Resume</h3>
+      <button>
+        <a href={Pdf} target="_blank" rel="noreferrer">
+          Click here to download resume
+        </a>
+      </button>
       <div>
         <h4>Frontend Proficiencies</h4>
         <li>HTML</li>

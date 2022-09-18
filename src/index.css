@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Jazz LET, fantasy;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -116,7 +116,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  position: relative;
+  position: fixed;
   margin-top: 10rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -143,6 +143,7 @@ footer {
   font-size: 2rem;
   font-weight: 200;
 }
+
 
 .work {
   display: flex;
@@ -225,6 +226,24 @@ footer {
   border-bottom: 1px solid;
 }
 
+.resume button {
+  padding: .5rem;
+  border-radius: 10px;
+  border: 1px solid;
+  margin-top: .7rem;
+  background-color: lightgray;
+
+}
+
+.resume button:hover {
+  background-color: rgb(199, 218, 212);
+}
+
+.resume button a {
+  text-decoration: none;
+  color: black;
+}
+
 .resume div {
   display: flex;
   justify-content: center;
@@ -251,12 +270,15 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 1.7rem;
 }
 
 .contact h1 { 
   font-size: 2rem;
   font-weight: 200;
+  border-bottom: 1px solid;
+  padding-bottom: .8rem;
+  margin-bottom: .5rem;
 }
 
 .name,
@@ -297,8 +319,17 @@ footer {
   padding-right: 2rem;
   border-radius: 10px;
   border: 1px solid;
+  background-color: lightgray;
 }
 
 .contact-btn button:hover {
-  background-color: lightgray;
+  background-color: rgb(199, 218, 212);
+}
+
+@media screen and (max-width=570px) {
+  .about-me-img {
+    width: 25%;
+    /* border-radius: 5px; */
+  }
+
 }
