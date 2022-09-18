@@ -3,19 +3,23 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Jazz LET, fantasy;
 }
 
 body {
   background-color: whitesmoke;
+  display: block;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   padding-top: 1.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  background-color: rgb(199, 218, 212);
+  border: 1px solid;
 
 }
 
@@ -50,10 +54,14 @@ header nav ul li a {
   color: black;
 }
 
+header nav ul li a:hover {
+  color: gray;
+}
+
 /* about me section start */
 
 .about-me {
-  /* background-color: rgb(231, 249, 231); */
+  background-color: rgb(231, 249, 231);
   display: flex;
   flex-direction: row;
   /* margin: 1rem; */
@@ -61,18 +69,18 @@ header nav ul li a {
   margin-right: 1rem;
   margin-top: 2rem;
   padding: 1rem;
-  /* border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid;
-  box-shadow: 0 0 10px rgb(0 0 0 / 50%) */
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%)
 }
 
 .about-me-text {
   padding-left: 1rem;
 }
 
-.about-me-text h2 {
-  font-size: 1.6rem;
-  font-weight: 400;
+.about-me-text h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
 }
 
 .about-me-text p {
@@ -100,17 +108,23 @@ header nav ul li a {
 .bi-twitter:hover,
 .bi-linkedin:hover,
 .bi-github:hover {
-  color: red;
+  color: gray;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  padding: 1rem;
-  left: 0;
   bottom: 0;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin-top: 10rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: 1px solid;
+  background-color: rgb(199, 218, 212);
+  bottom: 0;
+  right:0;
+  left: 0;
 }
 
 /* footer section ends */
@@ -119,7 +133,7 @@ footer {
 
 .portfolio {
   padding-top: 1.8rem;
-  /* margin-bottom: 5rem; */
+  margin-bottom: 5rem;
 }
 
 .projects {
@@ -139,11 +153,50 @@ footer {
 .national-weather-app,
 .pizza-hunt,
 .random-password,
-.zookeepr-app {
+.zookeepr-app,
+.photo-port,
+.quiz-app {
+  background-color: rgb(231, 249, 231);
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 2.5rem;
+  /* filter: grayscale(.7); */
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%)
 }
+
+.park-text,
+.pizza-text,
+.password-text,
+.zookeepr-text,
+.photo-text,
+.quiz-text {
+  text-align: center;
+  max-width: fit-content;
+  padding-left: .25rem;
+  padding-right: .25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.park-text h4,
+.pizza-text h4,
+.password-text h4,
+.zookeepr-text h4,
+.photo-text h4,
+.quiz-text h4 {
+  font-size: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+/* .national-weather-app:hover,
+.pizza-hunt:hover,
+.random-password:hover,
+.zookeepr-app:hover,
+.photo-port:hover,
+.quiz-app:hover {
+  /* filter: grayscale(0); */
 
 .work article img {
   width: 20rem;
@@ -160,12 +213,15 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* border: 1px solid; */
 }
 
 .resume h3 {
   font-size: 2rem;
   padding-bottom: .8rem;
-  margin-top: 1rem;
+  padding-top: 1rem;
+  font-weight: 200;
+  margin-top: .7rem;
   border-bottom: 1px solid;
 }
 
@@ -225,7 +281,6 @@ footer {
 
 .error-text {
   padding-top: .25rem;
-  padding-bottom: .25rem;
 }
 
 /* .contact-btn {
@@ -235,6 +290,7 @@ footer {
 } */
 
 .contact-btn button {
+  margin-top: .25rem;
   padding-top: .25rem;
   padding-bottom: .25rem;
   padding-left: 2rem;

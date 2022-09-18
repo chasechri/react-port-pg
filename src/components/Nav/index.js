@@ -1,6 +1,7 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const tabs = ["About", "Portfolio", "Resume", "Contact"];
   return (
     <header>
       <h2>
@@ -8,18 +9,14 @@ function Nav() {
       </h2>
       <nav>
         <ul>
-          <li>
-            <a href="#about-me">About me</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+          {" "}
+          {tabs.map((tab) => (
+            <li className={props.currentPage === tab} key={tab}>
+              <a href onClick={() => props.handlePageChange(tab)}>
+                {tab}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
