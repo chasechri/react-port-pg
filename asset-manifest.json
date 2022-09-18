@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-port-pg/static/css/main.772a712f.css",
+    "main.js": "/react-port-pg/static/js/main.3c626885.js",
+    "static/js/787.510e8dec.chunk.js": "/react-port-pg/static/js/787.510e8dec.chunk.js",
+    "static/media/national-weather-img.png": "/react-port-pg/static/media/national-weather-img.0ca910a60cfb5a4c6fab.png",
+    "static/media/photo-port-img.png": "/react-port-pg/static/media/photo-port-img.e6573920162d7e34a268.png",
+    "static/media/pizza-hunt-img.png": "/react-port-pg/static/media/pizza-hunt-img.6d55d70d88efbac51552.png",
+    "static/media/zookeepr-img.png": "/react-port-pg/static/media/zookeepr-img.b6dc9bc43f52700e1650.png",
+    "static/media/picture.jpg": "/react-port-pg/static/media/picture.7ec97c26fc9cf33a8613.jpg",
+    "static/media/Chase-Christenson.pdf": "/react-port-pg/static/media/Chase-Christenson.308d31e6cdfa4bec162b.pdf",
+    "static/media/random-password-img.png": "/react-port-pg/static/media/random-password-img.cccd9ec895fa4a1484a8.png",
+    "static/media/quiz-app-img.png": "/react-port-pg/static/media/quiz-app-img.fe21b6a78bfb9b302138.png",
+    "index.html": "/react-port-pg/index.html",
+    "main.772a712f.css.map": "/react-port-pg/static/css/main.772a712f.css.map",
+    "main.3c626885.js.map": "/react-port-pg/static/js/main.3c626885.js.map",
+    "787.510e8dec.chunk.js.map": "/react-port-pg/static/js/787.510e8dec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.772a712f.css",
+    "static/js/main.3c626885.js"
+  ]
+}
