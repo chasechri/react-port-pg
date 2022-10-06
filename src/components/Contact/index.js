@@ -3,48 +3,49 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
-  const [errorMessage, setErrorMessage] = useState("");
+  // const [errorMessage, setErrorMessage] = useState("");
 
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formState, setFormState] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const { name, email, message } = formState;
+  // const { name, email, message } = formState;
 
-  function handleChange(e) {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      console.log(isValid);
-      // isValid conditional statement
-      if (!isValid) {
-        setErrorMessage("Your email is invalid.");
-      } else {
-        setErrorMessage("");
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage("");
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-  }
+  // function handleChange(e) {
+  //   if (e.target.name === "email") {
+  //     const isValid = validateEmail(e.target.value);
+  //     console.log(isValid);
+  //     // isValid conditional statement
+  //     if (!isValid) {
+  //       setErrorMessage("Your email is invalid.");
+  //     } else {
+  //       setErrorMessage("");
+  //     }
+  //   } else {
+  //     if (!e.target.value.length) {
+  //       setErrorMessage(`${e.target.name} is required.`);
+  //     } else {
+  //       setErrorMessage("");
+  //     }
+  //   }
+  //   if (!errorMessage) {
+  //     setFormState({ ...formState, [e.target.name]: e.target.value });
+  //   }
+  // }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   console.log(formState);
+  // }
 
   // JSX
   return (
     <section className="contact" id="contact">
       <h1>Contact</h1>
-      <form id="contact-form" onSubmit={handleSubmit} className="contact-form">
+      <li>Email: christensonchase451@gmail.com</li>
+      <li>Phone: (612) 513-1010</li>
+      {/* <form id="contact-form" onSubmit={handleSubmit} className="contact-form">
         <div className="name">
           <label htmlFor="name">Name:</label>
           <input
@@ -80,7 +81,7 @@ function ContactForm() {
         <div className="contact-btn">
           <button type="submit">Submit</button>
         </div>
-      </form>
+      </form> */}
     </section>
   );
 }
