@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-port-pg/static/css/main.772a712f.css",
-    "main.js": "/react-port-pg/static/js/main.3c626885.js",
+    "main.css": "/react-port-pg/static/css/main.d952d2cd.css",
+    "main.js": "/react-port-pg/static/js/main.e620652f.js",
     "static/js/787.510e8dec.chunk.js": "/react-port-pg/static/js/787.510e8dec.chunk.js",
     "static/media/national-weather-img.png": "/react-port-pg/static/media/national-weather-img.0ca910a60cfb5a4c6fab.png",
     "static/media/photo-port-img.png": "/react-port-pg/static/media/photo-port-img.e6573920162d7e34a268.png",
@@ -12,12 +12,12 @@
     "static/media/random-password-img.png": "/react-port-pg/static/media/random-password-img.cccd9ec895fa4a1484a8.png",
     "static/media/quiz-app-img.png": "/react-port-pg/static/media/quiz-app-img.fe21b6a78bfb9b302138.png",
     "index.html": "/react-port-pg/index.html",
-    "main.772a712f.css.map": "/react-port-pg/static/css/main.772a712f.css.map",
-    "main.3c626885.js.map": "/react-port-pg/static/js/main.3c626885.js.map",
+    "main.d952d2cd.css.map": "/react-port-pg/static/css/main.d952d2cd.css.map",
+    "main.e620652f.js.map": "/react-port-pg/static/js/main.e620652f.js.map",
     "787.510e8dec.chunk.js.map": "/react-port-pg/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.772a712f.css",
-    "static/js/main.3c626885.js"
+    "static/css/main.d952d2cd.css",
+    "static/js/main.e620652f.js"
   ]
 }
