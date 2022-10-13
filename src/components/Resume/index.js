@@ -1,12 +1,13 @@
 import React from "react";
-import Pdf from "../../assets/Documents/Chase-Christenson.pdf";
+// import Pdf from "../../assets/Documents/Chase-Christenson.pdf";
+import newPdf from "../../assets/Documents/Chase Christenson.pdf";
 
 function Resume() {
   return (
     <section id="resume" className="resume">
       <h3>Resume</h3>
       <button>
-        <a href={Pdf} target="_blank" rel="noreferrer">
+        <a href={newPdf} target="_blank" rel="noreferrer">
           Click here to download resume
         </a>
       </button>

@@ -22,21 +22,23 @@ function Portfolio() {
             <br></br>
             <p>Languages/Tech: HTML, CSS, Tailwind, and JavaScript</p>
             <br></br>
-            <a
-              href="https://github.com/chasechri/National-Park"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see repository!
-            </a>
-            <br></br>
-            <a
-              href="https://chasechri.github.io/National-Park/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see the live site!
-            </a>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/National-Park"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/National-Park/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
         <article className="pizza-hunt">
@@ -50,21 +52,23 @@ function Portfolio() {
               Mongodb.
             </p>
             <br></br>
-            <a
-              href="https://github.com/chasechri/pizza-hunt"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see repository!
-            </a>
-            <br></br>
-            <a
-              href="https://young-tundra-07546.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see the live site!
-            </a>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/pizza-hunt"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://young-tundra-07546.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
         <article className="random-password">
@@ -78,22 +82,23 @@ function Portfolio() {
             <br></br>
             <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
             <br></br>
-            <br></br>
-            <a
-              href="https://github.com/chasechri/randompassword-by-cc"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see repository!
-            </a>
-            <br></br>
-            <a
-              href="https://chasechri.github.io/randompassword-by-cc/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see the live site!
-            </a>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/randompassword-by-cc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/randompassword-by-cc/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
         <article className="zookeepr-app">
@@ -108,21 +113,23 @@ function Portfolio() {
               Languages/Tech: HTML, CSS, JavaScript, Node, Jest, and Express.
             </p>
             <br></br>
-            <a
-              href="https://github.com/chasechri/zookeepr"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see repository!
-            </a>
-            <br></br>
-            <a
-              href="https://ancient-thicket-09140.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see the live site!
-            </a>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/zookeepr"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://ancient-thicket-09140.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
         <article className="photo-port">
@@ -131,23 +138,26 @@ function Portfolio() {
             <h4>Photographer Portfolio</h4>
             <p>Portfolio website built for a photgrapher.</p>
             <br></br>
+            <br></br>
             <p>Languages/Tech: JavaScript, React, Node, and CSS. </p>
             <br></br>
-            <a
-              href="https://github.com/chasechri/photo-port"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see repository!
-            </a>
-            <br></br>
-            <a
-              href="https://chasechri.github.io/photo-port/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see the live site!
-            </a>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/photo-port"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/photo-port/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
         <article className="quiz-app">
@@ -156,24 +166,26 @@ function Portfolio() {
             <h4>Quiz App</h4>
             <p>A simple 5 question timed quiz</p>
             <br></br>
+            <br></br>
             <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
             <br></br>
-            <br></br>
-            <a
-              href="https://github.com/chasechri/codeine-quiz"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see repository!
-            </a>
-            <br></br>
-            <a
-              href="https://chasechri.github.io/codeine-quiz/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click to see the live site!
-            </a>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/codeine-quiz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/codeine-quiz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
       </div>
