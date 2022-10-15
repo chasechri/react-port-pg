@@ -5,6 +5,9 @@ import password from "../../assets/images/random-password-img.png";
 import zookeepr from "../../assets/images/zookeepr-img.png";
 import pport from "../../assets/images/photo-port-img.png";
 import quiz from "../../assets/images/quiz-app-img.png";
+import search from "../../assets/images/searcheng.png";
+import task from "../../assets/images/taskinator.png";
+import contact from "../../assets/images/contactcard.png";
 
 function Portfolio() {
   return (
@@ -188,7 +191,126 @@ function Portfolio() {
             </div>
           </div>
         </article>
+        <article className="quiz-app">
+          <img alt="" src={search}></img>
+          <div className="quiz-text">
+            <h4>Book Search Engine</h4>
+            <p>
+              A google search engine for finding books and saving them to your
+              profile.
+            </p>
+            <br></br>
+            <p>
+              Languages/Tech: MongoDB, Express, React, Node, JavaScript, CSS.
+            </p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/book-search-engine-bycc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://sheltered-bayou-52718.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={task}></img>
+          <div className="quiz-text">
+            <h4>Taskinator</h4>
+            <p>
+              This application allows you to create, edit, and delete tasks.
+            </p>
+            <br></br>
+            <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/taskinator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/taskinator/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={contact}></img>
+          <div className="quiz-text">
+            <h4>Contact Cards</h4>
+            <p>
+              This application allows you to create and save contact
+              information. The app is also installable.
+            </p>
+            <br></br>
+            <p>Languages/Tech: Webpack, JavaScript, CSS, HTML, and Express.</p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/contact-card"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://guarded-lake-12434.herokuapp.com/#"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
+      <footer>
+        <div className="foot-con">
+          <h1>
+            <a
+              href="https://github.com/chasechri"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi-github"></i>
+            </a>
+          </h1>
+          <h1>
+            <a
+              href="https://www.linkedin.com/in/chase-christenson-308444238/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="bi-linkedin"></i>
+            </a>
+          </h1>
+          <h1>
+            <a
+              href="https://mobile.twitter.com/nbachase1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi-twitter"></i>
+            </a>
+          </h1>
+        </div>
+      </footer>
     </section>
   );
 }

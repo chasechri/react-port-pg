@@ -6,13 +6,13 @@ import Header from "./components/Header";
 // import Portfolio from "./components/Portfolio";
 // import Resume from "./components/Resume";
 // import ContactForm from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

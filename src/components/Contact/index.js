@@ -42,9 +42,10 @@ function ContactForm() {
   // JSX
   return (
     <section className="contact" id="contact">
-      <h1>Contact</h1>
+      <h1 className="con">Contact</h1>
       <li>Email: christensonchase451@gmail.com</li>
       <li>Phone: (612) 513-1010</li>
+      {/* <li>GitHub: </li> */}
       {/* <form id="contact-form" onSubmit={handleSubmit} className="contact-form">
         <div className="name">
           <label htmlFor="name">Name:</label>
@@ -82,6 +83,37 @@ function ContactForm() {
           <button type="submit">Submit</button>
         </div>
       </form> */}
+      <footer className="about-footer">
+        <div className="foot-con">
+          <h1>
+            <a
+              href="https://github.com/chasechri"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi-github"></i>
+            </a>
+          </h1>
+          <h1>
+            <a
+              href="https://www.linkedin.com/in/chase-christenson-308444238/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="bi-linkedin"></i>
+            </a>
+          </h1>
+          <h1>
+            <a
+              href="https://mobile.twitter.com/nbachase1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi-twitter"></i>
+            </a>
+          </h1>
+        </div>
+      </footer>
     </section>
   );
 }
