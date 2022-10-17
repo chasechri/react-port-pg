@@ -14,6 +14,9 @@ import portgen from "../../assets/images/portgen.jpg";
 import sonet from "../../assets/images/social-netss.jpg";
 import teampg from "../../assets/images/teampg.jpg";
 import readme from "../../assets/images/readmegenss.jpg";
+import runbud from "../../assets/images/runbuddy-ss-1.jpg";
+import note from "../../assets/images/note.jpg";
+import work from "../../assets/images/workday.jpg";
 
 function Portfolio() {
   return (
@@ -431,6 +434,92 @@ function Portfolio() {
               </a>
             </div>
             <br></br>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={runbud}></img>
+          <div className="quiz-text">
+            <h4>Run Buddy</h4>
+            <p>Website for people interested in getting into running</p>
+            <br></br>
+            <p>Languages/Tech: HTML and CSS.</p>
+            <br></br>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/Run-Buddy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/Run-Buddy/index.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={note}></img>
+          <div className="quiz-text">
+            <h4>Note Taker</h4>
+            <p>Application for writing and saving notes.</p>
+            <br></br>
+            <br></br>
+            <p>
+              Languages/Tech: HTML, CSS, JavaScript, Express, Bootstrap, and
+              Heroku.
+            </p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/note-taker-cc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://elegant-chaise-05713.herokuapp.com/notes"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={work}></img>
+          <div className="quiz-text">
+            <h4>Work Day Scheduler</h4>
+            <p>
+              Application for planning out your day and keeping up with
+              everything you have to do.
+            </p>
+            <br></br>
+            <p>Languages/Tech: HTML, CSS, JavaScript, and JQuery.</p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/note-taker-cc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://elegant-chaise-05713.herokuapp.com/notes"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
           </div>
         </article>
       </div>
