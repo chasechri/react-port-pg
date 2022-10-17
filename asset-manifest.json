@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/react-port-pg/static/css/main.f422cb3c.css",
-    "main.js": "/react-port-pg/static/js/main.3324f675.js",
+    "main.css": "/react-port-pg/static/css/main.063b1b2b.css",
+    "main.js": "/react-port-pg/static/js/main.d6709a0e.js",
     "static/js/787.510e8dec.chunk.js": "/react-port-pg/static/js/787.510e8dec.chunk.js",
     "static/media/national-weather-img.png": "/react-port-pg/static/media/national-weather-img.0ca910a60cfb5a4c6fab.png",
     "static/media/searcheng.png": "/react-port-pg/static/media/searcheng.6a50d5c1638cb4949865.png",
     "static/media/photo-port-img.png": "/react-port-pg/static/media/photo-port-img.e6573920162d7e34a268.png",
     "static/media/pizza-hunt-img.png": "/react-port-pg/static/media/pizza-hunt-img.6d55d70d88efbac51552.png",
     "static/media/zookeepr-img.png": "/react-port-pg/static/media/zookeepr-img.b6dc9bc43f52700e1650.png",
+    "static/media/employee-track.jpg": "/react-port-pg/static/media/employee-track.33a8f5244a271cfd7da7.jpg",
+    "static/media/portgen.jpg": "/react-port-pg/static/media/portgen.d4fa9b6c310a239bf250.jpg",
+    "static/media/ecom.jpg": "/react-port-pg/static/media/ecom.cbcb03f31257ed21dde4.jpg",
+    "static/media/social-netss.jpg": "/react-port-pg/static/media/social-netss.e9d7b1614de117b6bb30.jpg",
     "static/media/Chase Christenson.pdf": "/react-port-pg/static/media/Chase Christenson.2b1d6b99a3214bd0e044.pdf",
     "static/media/picture.jpg": "/react-port-pg/static/media/picture.7ec97c26fc9cf33a8613.jpg",
+    "static/media/teampg.jpg": "/react-port-pg/static/media/teampg.da14a3acf64426b7ab13.jpg",
     "static/media/contactcard.png": "/react-port-pg/static/media/contactcard.5306790da831c773692c.png",
+    "static/media/readmegenss.jpg": "/react-port-pg/static/media/readmegenss.bad8f6a50b7f49495795.jpg",
     "static/media/taskinator.png": "/react-port-pg/static/media/taskinator.97e090f60915c20e1da4.png",
     "static/media/random-password-img.png": "/react-port-pg/static/media/random-password-img.cccd9ec895fa4a1484a8.png",
     "static/media/quiz-app-img.png": "/react-port-pg/static/media/quiz-app-img.fe21b6a78bfb9b302138.png",
     "index.html": "/react-port-pg/index.html",
-    "main.f422cb3c.css.map": "/react-port-pg/static/css/main.f422cb3c.css.map",
-    "main.3324f675.js.map": "/react-port-pg/static/js/main.3324f675.js.map",
+    "main.063b1b2b.css.map": "/react-port-pg/static/css/main.063b1b2b.css.map",
+    "main.d6709a0e.js.map": "/react-port-pg/static/js/main.d6709a0e.js.map",
     "787.510e8dec.chunk.js.map": "/react-port-pg/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f422cb3c.css",
-    "static/js/main.3324f675.js"
+    "static/css/main.063b1b2b.css",
+    "static/js/main.d6709a0e.js"
   ]
 }
