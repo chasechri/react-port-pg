@@ -43,8 +43,36 @@ function ContactForm() {
   return (
     <section className="contact" id="contact">
       <h1 className="con">Contact</h1>
-      <li>Email: christensonchase451@gmail.com</li>
-      <li>Phone: (612) 513-1010</li>
+      <card className="contact-card">
+        <h4>(612) 513-1010</h4>
+        <h4>
+          <a
+            href="mailto:christensonchase451@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            christensonchase451@gmail.com
+          </a>
+        </h4>
+        <h4>
+          <a
+            href="https://www.linkedin.com/in/chase-christenson-308444238/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </h4>
+        <h4>
+          <a
+            href="https://github.com/chasechri"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        </h4>
+      </card>
       {/* <li>GitHub: </li> */}
       {/* <form id="contact-form" onSubmit={handleSubmit} className="contact-form">
         <div className="name">

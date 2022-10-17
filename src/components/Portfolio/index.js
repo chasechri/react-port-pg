@@ -8,6 +8,12 @@ import quiz from "../../assets/images/quiz-app-img.png";
 import search from "../../assets/images/searcheng.png";
 import task from "../../assets/images/taskinator.png";
 import contact from "../../assets/images/contactcard.png";
+import emptrack from "../../assets/images/employee-track.jpg";
+import ecom from "../../assets/images/ecom.jpg";
+import portgen from "../../assets/images/portgen.jpg";
+import sonet from "../../assets/images/social-netss.jpg";
+import teampg from "../../assets/images/teampg.jpg";
+import readme from "../../assets/images/readmegenss.jpg";
 
 function Portfolio() {
   return (
@@ -200,6 +206,7 @@ function Portfolio() {
               profile.
             </p>
             <br></br>
+            <br></br>
             <p>
               Languages/Tech: MongoDB, Express, React, Node, JavaScript, CSS.
             </p>
@@ -229,6 +236,7 @@ function Portfolio() {
             <p>
               This application allows you to create, edit, and delete tasks.
             </p>
+            <br></br>
             <br></br>
             <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
             <div className="links">
@@ -277,6 +285,152 @@ function Portfolio() {
                 Click to see the live site!
               </a>
             </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={emptrack}></img>
+          <div className="quiz-text">
+            <h4>Employee Tracker</h4>
+            <p>
+              This is a command-line application built to help manage a
+              company's employee database
+            </p>
+            <br></br>
+            <p>Languages/Tech: Node.js, Inquirer, MySQL, and JavaScript</p>
+            <br></br>
+            <div className="repo-link">
+              <a
+                href="https://github.com/chasechri/employee-track-cc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+            </div>
+            <br></br>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={ecom}></img>
+          <div className="quiz-text">
+            <h4>E-commerce Backend</h4>
+            <p>
+              This project comprises of back-end code for an e-commerce website.
+            </p>
+            <br></br>
+            <br></br>
+            <p>
+              Languages/Tech: Express.js, API, Insomnia, Sequelize, and MySQL
+              database.
+            </p>
+            <br></br>
+            <div className="repo-link">
+              <a
+                href="https://github.com/chasechri/E-commerce-backend-cc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+            </div>
+            <br></br>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={portgen}></img>
+          <div className="quiz-text">
+            <h4>Portfolio Generator</h4>
+            <p>
+              Command-line application used to create a professional portfolio.
+            </p>
+            <br></br>
+            <br></br>
+            <p>Languages/Tech: Node, Inquirer, HTML, CSS, and JavaScript.</p>
+            <br></br>
+            <div className="repo-link">
+              <a
+                href="https://github.com/chasechri/portfolio-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+            </div>
+            <br></br>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={sonet}></img>
+          <div className="quiz-text">
+            <h4>Social Network Backend</h4>
+            <p>
+              Backend api for social network. Capable of creating, reading,
+              updating, and deleting data.
+            </p>
+            <br></br>
+            <p>
+              Languages/Tech: JavaScript, Node, Mongo, Express, Mongoose, and
+              Insomnia.
+            </p>
+            <br></br>
+            <div className="repo-link">
+              <a
+                href="https://github.com/chasechri/social-network-bycc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+            </div>
+            <br></br>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={teampg}></img>
+          <div className="quiz-text">
+            <h4>Team Profile Generator</h4>
+            <p>
+              Command-line application for generating and organizing a team.
+            </p>
+            <br></br>
+            <br></br>
+            <p>Languages/Tech: HTML, CSS, JavaScript, Node, and Jest.</p>
+            <br></br>
+            <div className="repo-link">
+              <a
+                href="https://github.com/chasechri/team-profile-general-byCC"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+            </div>
+            <br></br>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={readme}></img>
+          <div className="quiz-text">
+            <h4>README Generator</h4>
+            <p>
+              Command-line application used to save time by generating a
+              professional readme.
+            </p>
+            <br></br>
+            <br></br>
+            <p>Languages/Tech: JavaScript and Node.</p>
+            <br></br>
+            <br></br>
+            <div className="repo-link">
+              <a
+                href="https://github.com/chasechri/team-profile-general-byCC"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+            </div>
+            <br></br>
           </div>
         </article>
       </div>
