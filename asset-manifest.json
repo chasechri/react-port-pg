@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-port-pg/static/css/main.9fd8c6b2.css",
-    "main.js": "/react-port-pg/static/js/main.3dbfee88.js",
+    "main.css": "/react-port-pg/static/css/main.e33bd4d4.css",
+    "main.js": "/react-port-pg/static/js/main.4415e701.js",
     "static/js/787.510e8dec.chunk.js": "/react-port-pg/static/js/787.510e8dec.chunk.js",
+    "static/media/horiseon-ss-1.jpg": "/react-port-pg/static/media/horiseon-ss-1.96c909ca9ff5a5667bcc.jpg",
     "static/media/national-weather-img.png": "/react-port-pg/static/media/national-weather-img.0ca910a60cfb5a4c6fab.png",
     "static/media/runbuddy-ss-1.jpg": "/react-port-pg/static/media/runbuddy-ss-1.6d95444ab9d5a91b8d63.jpg",
     "static/media/searcheng.png": "/react-port-pg/static/media/searcheng.6a50d5c1638cb4949865.png",
@@ -15,21 +16,23 @@
     "static/media/social-netss.jpg": "/react-port-pg/static/media/social-netss.e9d7b1614de117b6bb30.jpg",
     "static/media/Chase Christenson.pdf": "/react-port-pg/static/media/Chase Christenson.2b1d6b99a3214bd0e044.pdf",
     "static/media/picture.jpg": "/react-port-pg/static/media/picture.7ec97c26fc9cf33a8613.jpg",
+    "static/media/deep-thoughts.jpg": "/react-port-pg/static/media/deep-thoughts.e80b1a0756c2be581f0e.jpg",
     "static/media/teampg.jpg": "/react-port-pg/static/media/teampg.da14a3acf64426b7ab13.jpg",
     "static/media/contactcard.png": "/react-port-pg/static/media/contactcard.5306790da831c773692c.png",
     "static/media/readmegenss.jpg": "/react-port-pg/static/media/readmegenss.bad8f6a50b7f49495795.jpg",
     "static/media/workday.jpg": "/react-port-pg/static/media/workday.ed441a5ff929332c4293.jpg",
     "static/media/taskinator.png": "/react-port-pg/static/media/taskinator.97e090f60915c20e1da4.png",
+    "static/media/pickup.jpg": "/react-port-pg/static/media/pickup.74b68f59665101c12bba.jpg",
     "static/media/random-password-img.png": "/react-port-pg/static/media/random-password-img.cccd9ec895fa4a1484a8.png",
     "static/media/quiz-app-img.png": "/react-port-pg/static/media/quiz-app-img.fe21b6a78bfb9b302138.png",
     "static/media/note.jpg": "/react-port-pg/static/media/note.4548c230dee910b0322d.jpg",
     "index.html": "/react-port-pg/index.html",
-    "main.9fd8c6b2.css.map": "/react-port-pg/static/css/main.9fd8c6b2.css.map",
-    "main.3dbfee88.js.map": "/react-port-pg/static/js/main.3dbfee88.js.map",
+    "main.e33bd4d4.css.map": "/react-port-pg/static/css/main.e33bd4d4.css.map",
+    "main.4415e701.js.map": "/react-port-pg/static/js/main.4415e701.js.map",
     "787.510e8dec.chunk.js.map": "/react-port-pg/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fd8c6b2.css",
-    "static/js/main.3dbfee88.js"
+    "static/css/main.e33bd4d4.css",
+    "static/js/main.4415e701.js"
   ]
 }
