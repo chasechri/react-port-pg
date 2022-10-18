@@ -13,9 +13,9 @@ function About() {
           <p>
             Hello my name is Chase Christenson. I am a 21 year old who recently
             earned a certificate in full stack development at the University of
-            Minnesota. I love to learn new things, I'm goal oriented, focused,
-            and not afraid of hard work. In my spare time I enjoy playing
-            basketball and watching tv shows.
+            Minnesota. In my free time I enjoy playing basketball and working
+            out. I look forward to applying my newly learned skills to real
+            world projects with a team of developers.
           </p>
         </div>
       </section>

@@ -17,12 +17,75 @@ import readme from "../../assets/images/readmegenss.jpg";
 import runbud from "../../assets/images/runbuddy-ss-1.jpg";
 import note from "../../assets/images/note.jpg";
 import work from "../../assets/images/workday.jpg";
+import pickup from "../../assets/images/pickup.jpg";
+import hor from "../../assets/images/horiseon-ss-1.jpg";
+import deep from "../../assets/images/deep-thoughts.jpg";
 
 function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
       <h3 className="projects">Portfolio</h3>
       <div className="work">
+        <article className="quiz-app">
+          <img alt="" src={deep}></img>
+          <div className="quiz-text">
+            <h4>Deep Thoughts</h4>
+            <p>Social network for sharing thoughts with your friends.</p>
+            <br></br>
+            <p>
+              Languages/Tech: HTML, CSS, JavaScript, Mongo, Express, React, and
+              Node.
+            </p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/deep-thoughts"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://gentle-spire-50154.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={search}></img>
+          <div className="quiz-text">
+            <h4>Book Search Engine</h4>
+            <p>
+              A google search engine for finding books and saving them to your
+              profile.
+            </p>
+            <br></br>
+            <p>
+              Languages/Tech: MongoDB, Express, React, Node, JavaScript, CSS.
+            </p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/book-search-engine-bycc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://sheltered-bayou-52718.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
         <article className="national-weather-app">
           <img alt="" src={npwa} />
           <div className="park-text">
@@ -33,7 +96,6 @@ function Portfolio() {
             </p>
             <br></br>
             <p>Languages/Tech: HTML, CSS, Tailwind, and JavaScript</p>
-            <br></br>
             <div className="links">
               <a
                 href="https://github.com/chasechri/National-Park"
@@ -152,7 +214,6 @@ function Portfolio() {
             <br></br>
             <br></br>
             <p>Languages/Tech: JavaScript, React, Node, and CSS. </p>
-            <br></br>
             <div className="links">
               <a
                 href="https://github.com/chasechri/photo-port"
@@ -180,7 +241,6 @@ function Portfolio() {
             <br></br>
             <br></br>
             <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
-            <br></br>
             <div className="links">
               <a
                 href="https://github.com/chasechri/codeine-quiz"
@@ -200,38 +260,7 @@ function Portfolio() {
             </div>
           </div>
         </article>
-        <article className="quiz-app">
-          <img alt="" src={search}></img>
-          <div className="quiz-text">
-            <h4>Book Search Engine</h4>
-            <p>
-              A google search engine for finding books and saving them to your
-              profile.
-            </p>
-            <br></br>
-            <br></br>
-            <p>
-              Languages/Tech: MongoDB, Express, React, Node, JavaScript, CSS.
-            </p>
-            <div className="links">
-              <a
-                href="https://github.com/chasechri/book-search-engine-bycc"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to see repository!
-              </a>
-              <br></br>
-              <a
-                href="https://sheltered-bayou-52718.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to see the live site!
-              </a>
-            </div>
-          </div>
-        </article>
+
         <article className="quiz-app">
           <img alt="" src={task}></img>
           <div className="quiz-text">
@@ -239,7 +268,6 @@ function Portfolio() {
             <p>
               This application allows you to create, edit, and delete tasks.
             </p>
-            <br></br>
             <br></br>
             <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
             <div className="links">
@@ -301,6 +329,7 @@ function Portfolio() {
             <br></br>
             <p>Languages/Tech: Node.js, Inquirer, MySQL, and JavaScript</p>
             <br></br>
+            <br></br>
             <div className="repo-link">
               <a
                 href="https://github.com/chasechri/employee-track-cc"
@@ -326,6 +355,7 @@ function Portfolio() {
               Languages/Tech: Express.js, API, Insomnia, Sequelize, and MySQL
               database.
             </p>
+            <br></br>
             <br></br>
             <div className="repo-link">
               <a
@@ -420,8 +450,8 @@ function Portfolio() {
               professional readme.
             </p>
             <br></br>
-            <br></br>
             <p>Languages/Tech: JavaScript and Node.</p>
+            <br></br>
             <br></br>
             <br></br>
             <div className="repo-link">
@@ -502,7 +532,9 @@ function Portfolio() {
               everything you have to do.
             </p>
             <br></br>
+            <br></br>
             <p>Languages/Tech: HTML, CSS, JavaScript, and JQuery.</p>
+            <br></br>
             <div className="links">
               <a
                 href="https://github.com/chasechri/note-taker-cc"
@@ -514,6 +546,67 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://elegant-chaise-05713.herokuapp.com/notes"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={pickup}></img>
+          <div className="quiz-text">
+            <h4>Pick Up</h4>
+            <p>
+              Web application for people seeking out others to play a sport with
+              at a location near them.
+            </p>
+            <br></br>
+            <p>
+              Languages/Tech: HTML, CSS, JavaScript, Tailwind, Node, Express,
+              Handlebars, MySQL2, Sequelize, Heroku, and dotenv.
+            </p>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/pick-up"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://pick-up-event.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see the live site!
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="quiz-app">
+          <img alt="" src={hor}></img>
+          <div className="quiz-text">
+            <h4>Horiseon</h4>
+            <p>Debugged HTML and CSS for marketing website.</p>
+            <br></br>
+            <br></br>
+            <p>Languages/Tech: HTML and CSS.</p>
+            <br></br>
+            <br></br>
+            <div className="links">
+              <a
+                href="https://github.com/chasechri/Horiseon-challenge-cc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to see repository!
+              </a>
+              <br></br>
+              <a
+                href="https://chasechri.github.io/Horiseon-challenge-cc/"
                 target="_blank"
                 rel="noreferrer"
               >
