@@ -18,7 +18,7 @@ import runbud from "../../assets/images/runbuddy-ss-1.jpg";
 import note from "../../assets/images/note.jpg";
 import work from "../../assets/images/workday.jpg";
 import pickup from "../../assets/images/pickup.jpg";
-import hor from "../../assets/images/horiseon-ss-1.jpg";
+import hor from "../../assets/images/clock.jpg";
 import deep from "../../assets/images/deep-thoughts.jpg";
 
 function Portfolio() {
@@ -589,16 +589,16 @@ function Portfolio() {
         <article className="quiz-app">
           <img alt="" src={hor}></img>
           <div className="quiz-text">
-            <h4>Horiseon</h4>
-            <p>Debugged HTML and CSS for marketing website.</p>
+            <h4>Clock</h4>
+            <p>Created a simple clock app.</p>
             <br></br>
             <br></br>
-            <p>Languages/Tech: HTML and CSS.</p>
             <br></br>
+            <p>Languages/Tech: HTML, CSS, and JavaScript.</p>
             <br></br>
             <div className="links">
               <a
-                href="https://github.com/chasechri/Horiseon-challenge-cc"
+                href="https://github.com/chasechri/clock"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -606,7 +606,7 @@ function Portfolio() {
               </a>
               <br></br>
               <a
-                href="https://chasechri.github.io/Horiseon-challenge-cc/"
+                href="https://chasechri.github.io/clock/"
                 target="_blank"
                 rel="noreferrer"
               >

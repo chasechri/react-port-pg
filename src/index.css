@@ -80,11 +80,12 @@ header nav ul li a:hover {
   padding: 1rem;
   border-radius: 10px;
   border: 1px solid;
-  box-shadow: 0 0 10px rgb(0 0 0 / 50%)
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  /* width: 92%; */
 }
 
 .about-me-text {
-  width: 50%;
+  width: 60%;
   padding-left: 1rem;
 }
 
